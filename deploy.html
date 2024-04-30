@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Deploy</title>
+    <title>Git Hub</title>
 </head>
 <body>
   <a href="index.html" class="animated-button1">
@@ -73,85 +73,45 @@
   <main>
     <br>
     <div class="box">
-<h1>Sistema Operacional</h1>
+<h1>Deploy</h1>
 <article>
-<p><span>Conceito: </span>Um sistema operacional é um software que gerencia recursos de hardware e proporciona uma interface para interação entre usuários e programas.</p>
+<p><span>Conceito: </span>Deploy é o processo de implantar e disponibilizar uma aplicação ou software em um ambiente de produção, tornando-a acessível aos usuários finais.</p>
 
 </article>
 <article>
-<h2>Sistemas Operacionais - Funções Básicas</h2>
+<h2>Deploy - Funções Básicas</h2>
 <ul>
-    <li>Gerenciamento de dispositivos periféricos (teclado, vídeo,
-        impressora, mouse, ...);</li>
+    <li>Preparação do Ambiente: Antes do deploy, é essencial garantir que o ambiente de produção esteja configurado corretamente. Isso pode incluir a configuração de servidores, bancos de dados, bibliotecas e outros recursos necessários para o funcionamento do aplicativo.</li>
         <br>
-        <li>Gerenciamento de arquivos;</li>
+        <li>Empacotamento do Aplicativo: O aplicativo é empacotado em um formato adequado para implantação. Isso pode envolver a criação de artefatos de compilação, como arquivos JAR, WAR, Docker containers, ou até mesmo imagens de máquinas virtuais.</li>
         <br>
-        <li>Gerenciamento de memória;</li>
+        <li>Transferência para o Ambiente de Produção: Os artefatos do aplicativo são transferidos para o ambiente de produção. Isso pode ser feito através de FTP, SCP, ou por meio de ferramentas de automação como Ansible, Chef ou Puppet.</li>
         <br>
-        <li>Gerenciamento de Processos;</li>
+        <li>Instalação e Configuração: Os artefatos do aplicativo são instalados e configurados no ambiente de produção. Isso pode incluir a configuração de servidores web, a configuração de variáveis de ambiente, a instalação de dependências e outras tarefas relacionadas</li>
         <br>
-        <li>Interpretação de comandos do usuário;</li>
+        <li>Testes de Implantação: Após a implantação, é importante realizar testes para garantir que o aplicativo foi implantado corretamente e está funcionando conforme o esperado. Isso pode incluir testes de integração, testes de carga e outros tipos de testes.</li>
         <br>
-        <li>Administração de serviços.</li>
+        <li>Monitoramento e Manutenção: Uma vez que o aplicativo esteja em produção, é importante monitorar seu desempenho e disponibilidade. Isso pode envolver a configuração de alertas, a análise de logs e a aplicação de patches e atualizações conforme necessário.</li>
         <br>
-        <li>Segurança do computador.</li>
-</ul>
-</article>
-<article>
-<h2>Principais Tópicos</h2>
-<ul>
-    <li><span>Intermediário entre hardware e software:</span> Age como uma camada intermediária que permite que o software interaja com o hardware do sistema de forma eficiente.</li>
-    <br>
-    <li><span>Coordenação e gerenciamento de recursos:</span> Controla recursos como processadores, memória, dispositivos de armazenamento e dispositivos de entrada/saída para garantir que sejam usados de forma eficaz pelos aplicativos.</li>
-    <br>
-    <li><span>Interface para interação com o usuário e programas:</span> Fornece uma interface, que pode ser uma linha de comando ou uma interface gráfica, para que os usuários e os programas possam interagir com o sistema.</li>
-    <br>
-    <li><span>Permite execução de aplicativos e processos:</span> Gerencia a execução de programas e processos, permitindo que múltiplos aplicativos sejam executados simultaneamente.</li>
-    <br>
-    <li><span>Controla o acesso e alocação de memória:</span> Gerencia a alocação e desalocação de memória para os processos em execução e otimiza o uso da memória disponível.</li>
-    <br>
-    <li><span>Gerencia o armazenamento e acesso a arquivos:</span> Organiza e controla o armazenamento e acesso a arquivos no sistema de armazenamento, garantindo integridade e segurança dos dados.</li>
-    <br>
-    <li><span>Facilita a comunicação com dispositivos de entrada/saída:</span> Gerencia a comunicação entre o sistema e dispositivos de entrada/saída, como teclado, mouse, impressoras, etc.</li>
-    <br>
-    <li><span>Oferece uma plataforma para desenvolvimento de software:</span>Fornece um conjunto de APIs e ferramentas para que os desenvolvedores possam criar e executar aplicativos no sistema operacional.</li>
-    <br>
-    <li><span>Responsável pela inicialização do sistema:</span> Gerencia o processo de inicialização do computador, carregando o sistema operacional na memória e preparando-o para uso.</li>
-    <br>
-    <li><span>Fornece serviços de rede e comunicação:</span> Oferece suporte para conexão de rede e comunicação, permitindo que dispositivos se comuniquem entre si através de redes locais ou da internet.</li>
-    <br>
-    <li><span>Proporciona suporte para múltiplos usuários:</span> Permite que múltiplos usuários possam interagir com o sistema simultaneamente, cada um com suas próprias configurações e preferências.</li>
-    <br>
-    <li><span>Pode ser encontrado em diferentes tipos de dispositivos:</span> Desde computadores pessoais até dispositivos móveis, servidores e sistemas embarcados, o sistema operacional é uma parte essencial de uma ampla gama de dispositivos digitais.</li>
-    <br>
-    <li><span>Evolui continuamente para acompanhar avanços tecnológicos e demandas dos usuários:</span> Está em constante desenvolvimento para incluir novos recursos, melhorias de desempenho, correções de segurança e suporte a novas tecnologias, garantindo sua relevância e eficácia ao longo do tempo.</li>
+        <li>Rollback em Caso de Problemas: Se surgirem problemas após o deploy, é importante ter um plano de rollback em vigor para reverter para uma versão anterior do aplicativo. Isso pode envolver a restauração de backups ou a reversão de alterações específicas.</li>
+        <br>
 </ul>
 </article>
 <article>
     <h2>
-        Sistemas Operacionais - Exemplos
+        Deploy - Curiosidades
     </h2>
     <ul>
-        <li><span>Windows:</span> É o sistema mais usado em computadores pelo
-            mundo, o Windows foi lançado originalmente na década de
-            1980 como uma evolução do antigo MS-DOS.</li>
+        <li><span>Implantação Contínua (Continuous Deployment):</span> Algumas organizações adotam práticas de implantação contínua, onde cada mudança de código aprovada é automaticamente implantada no ambiente de produção. Isso permite uma entrega de software mais rápida e eficiente, mas requer uma infraestrutura robusta de automação e testes.</li>
         <br>
-        <li><span>Linux:</span> É um sistema de código aberto, que é bastante
-            conhecido por ser altamente personalizado pelos usuários,
-            que assim conseguem adaptá-lo para o uso desejado.</li>
+        <li><span>Implantação Canário (Canary Deployment):: </span>  Em uma implantação canário, uma pequena porção do tráfego de produção é redirecionada para uma nova versão da aplicação, permitindo testar sua estabilidade e performance antes de ser completamente implantada. Isso ajuda a mitigar riscos, permitindo detectar problemas antes que afetem todos os usuários.</li>
         <br>
-        <li><span>Android:</span> Lançado em 2008, é um sistema operacional para
-            celulares e tablets desenvolvido pelo Google.</li>
+        <li><span>Rolling Deployments:</span> Nas rolling deployments, as atualizações são implantadas gradualmente em vários servidores ou instâncias da aplicação, uma por uma, sem interromper o serviço. Isso garante alta disponibilidade e minimiza o impacto de falhas, pois o serviço permanece operacional mesmo durante o processo de atualização.</li>
             <br>
-            <li><span>iOS:</span> é o sistema operacional móvel da Apple, lançado em
-                2007, sendo utilizado no iPhone e no iPod Touch, além de
-                fazer integração com outros sistemas da marca, como o
-                macOS, do Mac, e o tvOS, da Apple TV.</li>
     </ul>
 </article>
-
 <h2>Imagens</h2>
-<img src="sistemasoperacional1.jpg" alt=""> <img src="sistemasoperacional2.jpg"
+<img src="deploy.jpg" alt="">
 </article>
 </div>
 <br>
